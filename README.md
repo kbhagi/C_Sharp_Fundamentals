@@ -18,9 +18,12 @@ Compiler buils one or more assembly based on how your partition your code.
 
 AssemblyInfo.cs is an identification for the assemboly that will be produced as a result of compilation.  That is the result of When we compile an application you get an executable that is the assebmly
 
-App.config is a settings for an application. like connection to database
+App.config is a settings file for an application. like connection to database
 
 Using statement to import code from different namespaces. 
 Every class you create has a class called Program. Main method is entry point to application. When you run our applicatino clr executes code inside main method.
 
 Methods have input and output.
+
+Variable: a name given to a storage location in memory.
+Constant: an immutable value . To create safety in our application
