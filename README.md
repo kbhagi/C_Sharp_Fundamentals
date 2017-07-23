@@ -16,11 +16,11 @@ Each Class responsible for a peice of functionality. Organize classes into relat
 As the number of classes grow, we need a way to partition an application. That's where Assembly comes into play. An assembly is a container for related namespaces.PHysically is a file under disk which can be executable or dll
 Compiler buils one or more assembly based on how your partition your code.
 
-AssemblyInfo.s is an identification for the assemboly that will be produced as a result of compilation.  That is the result of When we compile an application you get an executable that is the assebmly
+AssemblyInfo.cs is an identification for the assemboly that will be produced as a result of compilation.  That is the result of When we compile an application you get an executable that is the assebmly
 
 App.config is a settings for an application. like connection to database
 
 Using statement to import code from different namespaces. 
 Every class you create has a class called Program. Main method is entry point to application. When you run our applicatino clr executes code inside main method.
 
-Method have input and output.
+Methods have input and output.
