@@ -10,12 +10,16 @@ namespace C_Sharp_Fundamentals
     {
         static void Main(string[] args)
         {
-            string s = "1";
-            int i = (int)s; //won't compile
+        try {
 
-            string z = "1";
-            int x = Convert.ToInt32(z);//right way of conversion 
-            int j = int.Parse(z);
+            var number = "1234";
+            byte b = Convert.ToByte(number); //if you dont handle exception, exception will be propagated to .net runtime and .net runtime mechanism is to stop your application and display your error
+            Console.WriteLine(b);
+        }
+            catch(Exception)
+            {
+                Console.WriteLine("The number could not be converted to a byte.");
+            }
         }
     }
-}
+
