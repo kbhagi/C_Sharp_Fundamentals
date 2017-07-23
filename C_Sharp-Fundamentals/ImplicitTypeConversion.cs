@@ -17,7 +17,7 @@ namespace C_Sharp_Fundamentals
             byte y = x; // won't compile 
             //When the compiler knows theres is chance for data loss, it wont allow implicit inversino
 
-            int m = 1;
+            int m = 1; //Csharp compiler enforces you to explicit type conversion as there is a loss
             byte n = (byte)m; // Explicit type conversion
         }
 
