@@ -19,6 +19,7 @@ namespace C_Sharp_Fundamentals
 
             int m = 1; //Csharp compiler enforces you to explicit type conversion as there is a loss
             byte n = (byte)m; // Explicit type conversion
+            Console.WriteLine(n);
         }
 
     }
