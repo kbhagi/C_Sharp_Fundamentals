@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conditionals.cs" />
+    <Compile Include="Iteration_Statements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Season.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
