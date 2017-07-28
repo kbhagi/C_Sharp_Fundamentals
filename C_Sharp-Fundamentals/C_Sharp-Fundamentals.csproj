@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Iterations_For_Loop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Whitel_Loops.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
