@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace C_Sharp_Fundamentals
-{
+{ 
     class Random_Class
     {
         static void Main(string[] args)
