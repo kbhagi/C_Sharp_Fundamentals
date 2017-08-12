@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Solutions_Exercises.cs" />
+    <Compile Include="Unique_Numbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
